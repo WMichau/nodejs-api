@@ -1,6 +1,6 @@
 {
     "env": {
-        "MONGO_PASS": "shop",
+        "MONGO_PASS": "pass",
         "klucz": "kluczens"
     }
 }

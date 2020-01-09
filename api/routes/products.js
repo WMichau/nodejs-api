@@ -67,6 +67,3 @@ router.delete("/:productId", checkAuth, (req, res, next)=> {
 });
 
 module.exports = router;
-
-
-//eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R0QHRlc3QucGwiLCJ1c2VySWQiOiI1ZGYxMGFkMTk3Y2NmOTBkNzQ3N2RhMDAiLCJpYXQiOjE1NzYwNzgwMzYsImV4cCI6MTU3NjA4MTYzNn0.sH0bWIGy8e0zZJSvkJoP8RwMC6tON0mPbsbR7yD7s-4

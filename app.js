@@ -7,7 +7,7 @@ const mongoose = require("mongoose");
 const productRoutes = require("./api/routes/products");
 const userRoutes = require("./api/routes/users");
 
-mongoose.connect("mongodb+srv://shop:"+ process.env.MONGO_PASS + "@mbo-ns57q.mongodb.net/mbo?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://admin:pass"+/*+ process.env.MONGO_PASS +*/"@db-qe4l5.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.use(morgan("dev"));
 app.use(bodyParser.urlencoded({extended: false}));
@@ -29,5 +29,3 @@ app.use((error, req, res, next)=> {
 });
 
 module.exports = app;
-
-//skonczyliśmy routy na użytkowniku - brakuje JWT
